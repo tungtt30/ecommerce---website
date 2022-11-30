@@ -91,7 +91,7 @@ const Home = () => {
                         gap={20}
                     >
                         {
-                            productData.getProducts(8).map((item, index) => (
+                            productData.getProducts(4).map((item, index) => (
                                 <ProductCard key={index}
                                     img01={item.image01}
                                     img02={item.image02}
@@ -115,7 +115,7 @@ const Home = () => {
             <Section>
                 <SectionBody>
                     <Link to="/catalog">
-                        <img src={banner} alt="" />
+                        <img className='home-banner' src={banner} alt="" />
                     </Link>
                 </SectionBody>
             </Section>
@@ -135,7 +135,7 @@ const Home = () => {
                         gap={20}
                     >
                         {
-                            productData.getProducts(12).map((item, index) => (
+                            productData.getProducts(8).map((item, index) => (
                                 <ProductCard key={index}
                                     img01={item.image01}
                                     img02={item.image02}

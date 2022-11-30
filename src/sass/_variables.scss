@@ -1,12 +1,12 @@
-$main-bg: #fff;
-$main-color: #4267b2;
+$main-bg: rgb(255, 255, 255);
+$main-color: #33007b;
 
-$txt-main-color: #000;
-$txt-second-color: #8d8d8d;
-$txt-white: #fff;
+$txt-main-color: $main-color;
+$txt-second-color: #bdbdbd;
+$txt-white: rgb(255, 255, 255);
 
 $btn-main-bg: $main-color;
-$btn-main-color: #fff;
+$btn-main-color: rgb(255, 255, 255);
 
 $header-height: 120px;
 $header-tablet-height: 70px;
@@ -18,11 +18,12 @@ $box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 $colors: (
   "blue": #4267b2,
   "orange": #fbb96b,
-  "pink": #fe7e73,
+  "pink": #4c217a,
   "white": #fff,
   "black": #000,
   "red": #ff0000,
-  "yellow": #fff000,
+  "gold": #ffd700,
+  "green": #567543,
   "main": $main-color,
 );
 

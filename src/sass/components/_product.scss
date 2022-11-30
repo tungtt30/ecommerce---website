@@ -41,8 +41,10 @@
         top: 0;
         left: 50%;
         height: 100%;
+        width: 80%;
         transform: translateX(-50%);
         border-radius: 10px;
+        object-fit: scale-down;
       }
     }
   }

@@ -98,7 +98,7 @@ const Footer = () => {
                         </p>
                         <p>
                             Hướng đến mục tiêu mạng lại niềm vui cho hàng triệu khách hàng
-                            Hãy cùng GodCloser hướng đến cuộc sống năng động, tích cực hơn
+                            Hãy cùng GodSk hướng đến cuộc sống năng động, tích cực hơn
                         </p>
                     </div>
                 </Grid>

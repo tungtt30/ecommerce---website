@@ -47,7 +47,7 @@ const ProductView = props => {
             return false
         }
         if (size === undefined) {
-            alert('vui lòng chọn size')
+            alert('vui lòng chọn dung lượng')
             return false
         }
         return true
@@ -106,13 +106,13 @@ const ProductView = props => {
                         dangerouslySetInnerHTML={{ __html: product.description }}
                     >
                     </div>
-                    <div className="product-description__toggle">
+                    {/* <div className="product-description__toggle">
                         <Button size='sm' onClick={() => setExpand(!expand)}>
                             {
                                 expand ? 'thu gọn' : 'xem thêm'
                             }
                         </Button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 
@@ -122,7 +122,7 @@ const ProductView = props => {
                 </h1>
 
                 <div className="product__info__item">
-                    <span className="product__info__item__price">{numberWithCommas(product.price)}</span>
+                    <span className="product__info__item__price">{numberWithCommas(product.price)} $</span>
                 </div>
 
                 <div className="product__info__item">
@@ -145,7 +145,7 @@ const ProductView = props => {
                 </div>
                 <div className="product__info__item">
                     <div className="product__info__item__title">
-                        size
+                        dung lượng
                     </div>
                     <div className="product__info__item__list">
                         {

@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import logo from "../assets/images/Logo-2.png"
 import { Link, useLocation } from 'react-router-dom'
+import { useSelector } from 'react-redux'
 
 const mainNav = [
     {
@@ -45,6 +46,9 @@ const Header = () => {
 
     const menuLeft = useRef(null)
     const menuToggle = () => menuLeft.current.classList.toggle('active')
+    const selector = useSelector(state => state.cartItems.value)
+
+
 
     return (
         <div className='header' ref={headerRef}>
@@ -79,6 +83,9 @@ const Header = () => {
                         <div className="header__menu__item header__menu__right__item">
                             <Link to="/cart">
                                 <i className='bx bx-cart'></i>
+                                {
+                                    selector.length > 0 && <div className='header__menu__item__inner'>{selector.length}</div>
+                                }
                             </Link>
                         </div>
                         <div className="header__menu__item header__menu__right__item">

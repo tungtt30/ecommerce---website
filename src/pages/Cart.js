@@ -40,7 +40,7 @@ const Cart = () => {
                         <p>bạn đang có {totalProducts} trong giỏ hàng</p>
                         <div className="cart__info__txt__price">
                             <span>Thành tiền</span>
-                            <span>{numberWithCommas(totalPrice)}</span>
+                            <span>{numberWithCommas(totalPrice)} $</span>
                         </div>
                     </div>
                     <div className="cart__info__btn">

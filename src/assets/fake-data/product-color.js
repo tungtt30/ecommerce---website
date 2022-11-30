@@ -4,23 +4,19 @@ const colors = [
         color: "white"
     },
     {
-        display: "Hồng",
-        color: "pink"
+        display: "Đỏ",
+        color: "red"
     },
     {
         display: "Đen",
         color: "black"
     },
     {
-        display: "Vàng",
-        color: "yellow"
+        display: "Gold",
+        color: "gold"
     },
     {
-        display: "Cam",
-        color: "orange"
-    },
-    {
-        display: "Xanh dương",
+        display: "Deep blue",
         color: "blue"
     }
 ]
